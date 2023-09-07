@@ -13,7 +13,7 @@
         
     }
     $(document).ready(function () {
-        $("#re_pass").blur(checkPasswordMatch);
+       
 		//Name Validation
 	    $("#name").on("blur", function() {
 			if (/\w+\s+\w+/.test($("#name").val())) {
@@ -22,6 +22,7 @@
 				$("#error_name").html("At least two string needed !");
 			}
 		});
+
 		//Mobile validation
 		$("#phone").on("blur", function() {
 		   if(!$('#phone').val().match('[0-9]{10}'))  {
@@ -31,6 +32,16 @@
 				$("#error_phone").hide();
 			}
 		});
+
+		$("#pass").on("blur", function() {
+			if (/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/.test($("#pass").val())) {
+				$("#error_password").hide();
+			} else {
+				$("#error_password").html("Invalid password format!");
+			}
+		});
+		
+		$("#re_pass").blur(checkPasswordMatch);
 		//Show password
 		$('#show_password').click(function() {
 			if ($('#re_pass').attr('type') == 'text') {
