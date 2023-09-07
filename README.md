@@ -3,7 +3,7 @@
 ## Table of Contents
 
 1. [Project Introduction](#project-introduction)
-2. [Modules Implemented](#modules-implemented)
+2. [Tech Stack](#tech-stack)
 3. [Prerequisites](#prerequisites)
 4. [Installation](#installation)
 5. [Societal Applications](#societal-applications)
@@ -14,7 +14,7 @@
 
 This system addresses the manual record-keeping challenges faced by smaller NGOs and provides them with a platform to connect with potential donors interested in contributing to their cause. Built using PHP and MySQL, the user-friendly interface ensures ease of operation. The system allows for systematic maintenance and retrieval of NGO and donor activity data.
 
-## Modules Implemented
+## Tech Stack
 
 - **HTML:** HTML is the foundation of the web and defines the structure of web content.
 
