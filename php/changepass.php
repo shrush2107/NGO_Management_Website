@@ -7,7 +7,7 @@ session_start();
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Change Password(Donor)</title>
+    <title>Change Password (Donor)</title>
     <script src="https://use.fontawesome.com/e7086e0bc7.js"></script>
     <style>
         .change-content{
