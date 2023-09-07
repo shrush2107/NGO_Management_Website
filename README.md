@@ -35,8 +35,8 @@ Before you begin, ensure you have met the following requirements:
 
 1. **Clone the Repository:**
    ```
-   git clone https://github.com/yourusername/bethechange.git
-   cd bethechange
+   git clone https://github.com/yourusername/NGO_Management_Website.git
+   cd NGO_Management_Website
    ```
 
 2. **Database Setup:**
@@ -64,7 +64,7 @@ Before you begin, ensure you have met the following requirements:
    - Start your web server.
 
 6. **Access the Application:**
-   - Open a web browser and visit `http://localhost/bethechange` (replace with your server configuration).
+   - Open a web browser and visit `http://localhost/NGO_Management_Website` (replace with your server configuration).
    - You should see the project's homepage.
 
 Please make sure to replace placeholders like `yourusername`, `your_database_name`, `your_mysql_username`, and `your_mysql_password` with actual values. Additionally, provide any specific installation or configuration instructions that are unique to your project.
